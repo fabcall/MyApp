@@ -10,6 +10,7 @@
     "ios:prod": "react-native run-ios --scheme Release",
     "ios:qa": "react-native run-ios --scheme Qa",
     "start": "react-native start",
+    "create-appicon": "iconset create",
     "generate-bootsplash": "react-native generate-bootsplash assets/images/bootsplash_logo_original.png --background-color=020C56 --logo-width=100 --assets-path=assets/images --flavor=main",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
@@ -40,8 +41,10 @@
     "eslint": "^7.32.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "husky": "^8.0.0",
+    "icon-set-creator": "^1.0.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.70.3",
+    "patch-package": "^6.4.7",
     "react-test-renderer": "18.0.0",
     "typescript": "^4.4.4"
   },

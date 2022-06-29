@@ -1,0 +1,13 @@
+diff --git a/node_modules/icon-set-creator/dist/lib/utils/ios.js b/node_modules/icon-set-creator/dist/lib/utils/ios.js
+index f426c5e..a32f3d1 100644
+--- a/node_modules/icon-set-creator/dist/lib/utils/ios.js
++++ b/node_modules/icon-set-creator/dist/lib/utils/ios.js
+@@ -1,7 +1,7 @@
+ "use strict";
+ Object.defineProperty(exports, "__esModule", { value: true });
+ exports.createImageList = exports.generateContentsFile = exports.iosIcons = exports.getIosAssetFolder = exports.getIosConfigFile = exports.getIosDefaultIconFolder = exports.iosDefaultIconName = void 0;
+-exports.iosDefaultIconName = 'Icon-App';
++exports.iosDefaultIconName = 'AppIcon';
+ const getIosDefaultIconFolder = (projectName, flavor) => (`ios/${projectName}/Images.xcassets/AppIcon${flavor ? `-${flavor}` : ''}.appiconset/`);
+ exports.getIosDefaultIconFolder = getIosDefaultIconFolder;
+ const getIosConfigFile = (projectName) => `ios/${projectName}.xcodeproj/project.pbxproj`;
