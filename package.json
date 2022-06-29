@@ -10,6 +10,7 @@
     "ios:prod": "react-native run-ios --scheme Release",
     "ios:qa": "react-native run-ios --scheme Qa",
     "start": "react-native start",
+    "generate-bootsplash": "react-native generate-bootsplash assets/images/bootsplash_logo_original.png --background-color=020C56 --logo-width=100 --assets-path=assets/images --flavor=main",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "commit": "git-cz",
@@ -18,6 +19,7 @@
   "dependencies": {
     "react": "18.0.0",
     "react-native": "0.69.1",
+    "react-native-bootsplash": "^4.2.2",
     "react-native-config": "^1.4.6"
   },
   "devDependencies": {
