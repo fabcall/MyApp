@@ -1,0 +1,3 @@
+function registerUseCaseDependencies() {}
+
+export { registerUseCaseDependencies };

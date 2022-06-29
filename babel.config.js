@@ -1,3 +1,14 @@
+const pluginTransformTypescriptMetadata = [
+  'babel-plugin-transform-typescript-metadata',
+];
+
+const pluginProposalDecorators = [
+  '@babel/plugin-proposal-decorators',
+  {
+    legacy: true,
+  },
+];
+
 const pluginModuleResolver = [
   'babel-plugin-module-resolver',
   {
@@ -9,7 +20,11 @@ const pluginModuleResolver = [
   },
 ];
 
-const plugins = [pluginModuleResolver];
+const plugins = [
+  pluginTransformTypescriptMetadata,
+  pluginProposalDecorators,
+  pluginModuleResolver,
+];
 
 module.exports = {
   presets: ['module:metro-react-native-babel-preset'],

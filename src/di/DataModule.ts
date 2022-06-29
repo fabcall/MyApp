@@ -1,0 +1,3 @@
+function registerDataDependencies() {}
+
+export { registerDataDependencies };
